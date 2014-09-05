@@ -93,7 +93,7 @@ Aさんの画面をBさんと共有するとします。
 
 ####以下AさんのPC
 
-<p>$service ssh start #sshサーバーをを起動する</p>
+<p>$sudo service ssh start #sshサーバーをを起動する</p>
 
 <p>$tmux -S /tmp/tmux_shared_socket #共有するためのソケットを指定</p>
 
