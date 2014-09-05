@@ -32,7 +32,6 @@ describe "StaticPages" do
 
     it_should_behave_like "all static pages"
     it { should_not have_title('| Home') }
-<<<<<<< HEAD
 
     #it "should have the title 'Home'" do
       #visit '/static_pages/home'
@@ -53,8 +52,7 @@ describe "StaticPages" do
         end
       end
     end
-=======
->>>>>>> master
+
   end
 
 
