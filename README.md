@@ -107,5 +107,8 @@ Aさんの画面をBさんと共有するとします。
 
 <p>$tmux -S /tmp/tmux_shared_socket attach</p>
 
-これでAさんとBさんの画面共有が出来るようになりました。  
-herokuURL:https://secure-shore-3202.herokuapp.com/
+<p>これでAさんとBさんの画面共有が出来るようになりました。</p>
+*****
+##担当:又吉洋平 村上寛明   
+herokuのURLを貼っておきましたので確認よろしくお願いします。  
+#####herokuURL:<p>https://secure-shore-3202.herokuapp.com/</p>
