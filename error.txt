@@ -1,0 +1,466 @@
+FFFFFFFFFFFFFFFFF..FFFFFFFFFFFFFFFFF.FFFF..........FFF...........FFFFFFF......................FFFF...........................................
+
+Failures:
+
+  1) User pages following/followers followed users 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:206:in `block (4 levels) in <top (required)>'
+
+  2) User pages following/followers followed users 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:206:in `block (4 levels) in <top (required)>'
+
+  3) User pages following/followers followed users 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:206:in `block (4 levels) in <top (required)>'
+
+  4) User pages following/followers followers 
+     Failure/Error: sign_in other_user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:217:in `block (4 levels) in <top (required)>'
+
+  5) User pages following/followers followers 
+     Failure/Error: sign_in other_user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:217:in `block (4 levels) in <top (required)>'
+
+  6) User pages following/followers followers 
+     Failure/Error: sign_in other_user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:217:in `block (4 levels) in <top (required)>'
+
+  7) User pages profile page 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  8) User pages profile page 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  9) User pages profile page microposts 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  10) User pages profile page microposts 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  11) User pages profile page microposts 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  12) User pages profile page follow/unfollow buttons following a user should increment the followed user count
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  13) User pages profile page follow/unfollow buttons following a user should increment the other user's followers count
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  14) User pages profile page follow/unfollow buttons following a user toggling the button 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  15) User pages profile page follow/unfollow buttons unfollowing a user should decrement the followed user count
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  16) User pages profile page follow/unfollow buttons unfollowing a user should decrement the other user's followers count
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  17) User pages profile page follow/unfollow buttons unfollowing a user toggling the button 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:59:in `block (3 levels) in <top (required)>'
+
+  18) User pages edit page 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  19) User pages edit page 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  20) User pages edit page 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  21) User pages edit with invalid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  22) User pages edit with valid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  23) User pages edit with valid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  24) User pages edit with valid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  25) User pages edit with valid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  26) User pages edit with valid information 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:165:in `block (3 levels) in <top (required)>'
+
+  27) User pages index 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  28) User pages index 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  29) User pages index pagination 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  30) User pages index pagination should list each user
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  31) User pages index delete links 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  32) User pages index delete links as an admin user 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  33) User pages index delete links as an admin user should be able to delete another user
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  34) User pages index delete links as an admin user 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  35) User pages signup with valid information should create a user
+     Failure/Error: expect { click_button submit }.to change(User, :count).by(1)
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:149:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:149:in `block (4 levels) in <top (required)>'
+
+  36) User pages signup with valid information after saving the user 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (5 levels) in <top (required)>'
+
+  37) User pages signup with valid information after saving the user 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (5 levels) in <top (required)>'
+
+  38) User pages signup with valid information after saving the user 
+     Failure/Error: before { click_button submit }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (5 levels) in <top (required)>'
+
+  39) StaticPages Home page for signed-in users should render the user's feed
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/static_pages_spec.rb:25:in `block (4 levels) in <top (required)>'
+
+  40) StaticPages Home page for signed-in users follower/following counts 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/static_pages_spec.rb:25:in `block (4 levels) in <top (required)>'
+
+  41) StaticPages Home page for signed-in users follower/following counts 
+     Failure/Error: sign_in user
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/static_pages_spec.rb:25:in `block (4 levels) in <top (required)>'
+
+  42) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  43) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  44) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  45) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  46) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  47) Authentication signin with valid information 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  48) Authentication signin with valid information followed by signout 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/authentication_pages_spec.rb:36:in `block (4 levels) in <top (required)>'
+
+  49) Micropost pages micropost creation with invalid information should not create a micropost
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  50) Micropost pages micropost creation with invalid information error messages 
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  51) Micropost pages micropost creation with valid information should create a micropost
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  52) Micropost pages micropost destruction as correct user should delete a micropost
+     Failure/Error: before { sign_in user }
+     ActionView::Template::Error:
+       undefined method `any?' for nil:NilClass
+     # ./app/views/users/show.html.erb:17:in `_app_views_users_show_html_erb__765961619_84463550'
+     # ./spec/support/utilities.rb:19:in `sign_in'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+Finished in 7.07 seconds
+141 examples, 52 failures
+
+Failed examples:
+
+rspec ./spec/requests/user_pages_spec.rb:210 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:211 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:212 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:221 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:222 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:223 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:61 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:62 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:65 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:66 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:67 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:77 # User pages profile page follow/unfollow buttons following a user should increment the followed user count
+rspec ./spec/requests/user_pages_spec.rb:83 # User pages profile page follow/unfollow buttons following a user should increment the other user's followers count
+rspec ./spec/requests/user_pages_spec.rb:91 # User pages profile page follow/unfollow buttons following a user toggling the button 
+rspec ./spec/requests/user_pages_spec.rb:101 # User pages profile page follow/unfollow buttons unfollowing a user should decrement the followed user count
+rspec ./spec/requests/user_pages_spec.rb:107 # User pages profile page follow/unfollow buttons unfollowing a user should decrement the other user's followers count
+rspec ./spec/requests/user_pages_spec.rb:115 # User pages profile page follow/unfollow buttons unfollowing a user toggling the button 
+rspec ./spec/requests/user_pages_spec.rb:170 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:171 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:172 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:178 # User pages edit with invalid information 
+rspec ./spec/requests/user_pages_spec.rb:195 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:192 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:194 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:193 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:191 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:16 # User pages index 
+rspec ./spec/requests/user_pages_spec.rb:17 # User pages index 
+rspec ./spec/requests/user_pages_spec.rb:24 # User pages index pagination 
+rspec ./spec/requests/user_pages_spec.rb:26 # User pages index pagination should list each user
+rspec ./spec/requests/user_pages_spec.rb:34 # User pages index delete links 
+rspec ./spec/requests/user_pages_spec.rb:43 # User pages index delete links as an admin user 
+rspec ./spec/requests/user_pages_spec.rb:44 # User pages index delete links as an admin user should be able to delete another user
+rspec ./spec/requests/user_pages_spec.rb:49 # User pages index delete links as an admin user 
+rspec ./spec/requests/user_pages_spec.rb:148 # User pages signup with valid information should create a user
+rspec ./spec/requests/user_pages_spec.rb:156 # User pages signup with valid information after saving the user 
+rspec ./spec/requests/user_pages_spec.rb:157 # User pages signup with valid information after saving the user 
+rspec ./spec/requests/user_pages_spec.rb:158 # User pages signup with valid information after saving the user 
+rspec ./spec/requests/static_pages_spec.rb:29 # StaticPages Home page for signed-in users should render the user's feed
+rspec ./spec/requests/static_pages_spec.rb:41 # StaticPages Home page for signed-in users follower/following counts 
+rspec ./spec/requests/static_pages_spec.rb:42 # StaticPages Home page for signed-in users follower/following counts 
+rspec ./spec/requests/authentication_pages_spec.rb:43 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:39 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:40 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:42 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:38 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:41 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:47 # Authentication signin with valid information followed by signout 
+rspec ./spec/requests/micropost_pages_spec.rb:15 # Micropost pages micropost creation with invalid information should not create a micropost
+rspec ./spec/requests/micropost_pages_spec.rb:21 # Micropost pages micropost creation with invalid information error messages 
+rspec ./spec/requests/micropost_pages_spec.rb:28 # Micropost pages micropost creation with valid information should create a micropost
+rspec ./spec/requests/micropost_pages_spec.rb:39 # Micropost pages micropost destruction as correct user should delete a micropost
+
+Randomized with seed 21920
+
