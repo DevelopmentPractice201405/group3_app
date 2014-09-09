@@ -112,3 +112,11 @@ Aさんの画面をBさんと共有するとします。
 ##担当:又吉洋平 村上寛明   
 herokuのURLを貼っておきましたので確認よろしくお願いします。  
 #####herokuURL:<p>https://secure-shore-3202.herokuapp.com/</p>
+*****
+##担当:伊芸亮
+演習問題をやりました。
+#ブランチ名
+・5syou_ensyuu
+・6syou_ensyuu
+・7syou_ensyuu
+・8syo_ensyuu
