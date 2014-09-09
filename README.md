@@ -115,8 +115,10 @@ herokuのURLを貼っておきましたので確認よろしくお願いしま�
 *****
 ##担当:伊芸亮
 演習問題をやりました。
-#ブランチ名
-・5syou_ensyuu
-・6syou_ensyuu
-・7syou_ensyuu
-・8syo_ensyuu
+#####ブランチ名
+<ul>
+<li>・5syou_ensyuu</li>
+<li>・6syou_ensyuu</li>
+<li>・7syou_ensyuu</li>
+<li>・8syo_ensyuu</li>
+</ul>
