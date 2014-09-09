@@ -117,8 +117,8 @@ herokuのURLを貼っておきましたので確認よろしくお願いしま�
 演習問題をやりました。
 #####ブランチ名
 <ul>
-<li>・5syou_ensyuu</li>
-<li>・6syou_ensyuu</li>
-<li>・7syou_ensyuu</li>
-<li>・8syo_ensyuu</li>
+<li>5syou_ensyuu</li>
+<li>6syou_ensyuu</li>
+<li>7syou_ensyuu</li>
+<li>8syo_ensyuu</li>
 </ul>
